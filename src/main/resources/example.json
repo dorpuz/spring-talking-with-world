@@ -1,0 +1,8 @@
+{
+  "imie": "Dorota",
+  "szkola": {
+    "nazwa" : "WSZIB",
+    "adres" : "Kijowska 11"
+  },
+  "oceny": [5,5,5]
+}
