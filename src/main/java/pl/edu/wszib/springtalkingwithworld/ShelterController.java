@@ -47,6 +47,12 @@ public class ShelterController {
     return new ResponseEntity(nazwa, HttpStatus.OK);
   }
 
+  @GetMapping("/shelter/pokazz")
+  @ResponseBody
+  public List<Animals> showAll() {
+    return listOfAnimals;
+  }
+
   @GetMapping("/shelter/pokazInfo")
   public ResponseEntity checkAnimal(@RequestParam String checkId) {
 
